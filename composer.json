@@ -1,0 +1,27 @@
+{
+    "name": "esfahanahan/sendsms",
+    "version": "1.0.0",
+    "description": "develop strategy pattern for send sms with many services",
+    "autoload": {
+        "psr-4": {
+            "EsfahanAhan\\Sms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MohammadAminKazemi",
+            "email": "mohammadaminkazemi5@gmail.com"
+        }
+    ],
+    "require":
+    {
+        "illuminate/support": "~8"
+    },
+    "repositories": {
+        "packagist.org": false,
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/esfahanahan/"
+        }
+    }
+}
